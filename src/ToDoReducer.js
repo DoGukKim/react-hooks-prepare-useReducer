@@ -1,4 +1,5 @@
 import React, { useReducer, useState } from "react";
+import uuid from "uuid/v4";
 const InintalState = {
   toDos: [],
 };
@@ -39,8 +40,8 @@ const ToDoReducer = () => {
           value={newToDo}
         />
       </form>
+      <h3>To Dos List</h3>
       <ul>
-        <h3>To Dos List</h3>
         {state.toDos.map((ToDo, index) => (
           <li key={index}>{ToDo.text}</li>
         ))}
