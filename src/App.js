@@ -1,11 +1,10 @@
 import React from "react";
-import Count from "./Count";
-import Counter from "./Counter";
+import ToDoReducer from "./ToDoReducer";
 
 const App = () => {
   return (
     <>
-      <Count />
+      <ToDoReducer />
     </>
   );
 };
