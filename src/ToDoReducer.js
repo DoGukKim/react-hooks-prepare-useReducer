@@ -1,5 +1,6 @@
 import React, { useReducer, useState } from "react";
-import uuid from "uuid/v4";
+import uuid from "uuid";
+
 const InintalState = {
   toDos: [],
 };
